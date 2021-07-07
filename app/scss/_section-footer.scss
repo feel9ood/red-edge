@@ -1,0 +1,43 @@
+.section-footer {
+  position: relative;
+  background: $color-purple;
+  min-height: 120px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    position: relative;
+  }
+
+  .logo-box {
+    position: absolute;
+    top: -12px;
+  }
+}
+
+.navigation-menu__footer {
+  display: flex;
+  justify-content: center;
+
+  a {
+    color: $color-white;
+  }
+}
+
+@media (max-width: 768px) {
+  .navigation-menu__footer {
+    display: none; 
+  }
+
+  .section-footer .logo-box {
+    position: static;
+  }
+
+  .section-footer__container {
+    display: flex;
+    justify-content: center;
+  }
+}
+

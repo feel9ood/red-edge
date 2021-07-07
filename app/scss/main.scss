@@ -1,0 +1,26 @@
+// === fonts ===
+
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Ubuntu', sans-serif;
+
+// === / fonts ===
+
+// === media ===
+
+// sm: 576px,
+// md: 768px,
+// lg: 992px,
+// xl: 1200px,
+
+// === / media ===
+
+
+@import "normalize";
+
+@import "variables";
+@import "base";
+@import "components";
+@import "section-header";
+@import "section-main";
+@import "section-news";
+@import "section-footer";
